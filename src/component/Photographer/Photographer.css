@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
+
+.photographer-c {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-family: "Merriweather";
+}
+
+.programmer__title {
+    margin: 2.5% 0px 0px 0px;
+}
+
+.programmer__subtitle {
+    margin: 0px 0px 30px 0px;
+}
+
+.programmer-sc__container-port {
+    padding: 10px 0px 10px 0px;
+    width: 35%;
+    margin: 10px 5px 5px 5px;
+}
+
+.programmer-sc__container-portimg {
+    padding: 10px 0px 10px 0px;
+    width: 30%;
+    margin: 10px 5px 5px 5px;
+}
