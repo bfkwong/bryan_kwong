@@ -1,54 +1,78 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap");
 
-.programmer-c {
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
-    font-family: "Ubuntu Mono";
+.programmer__c {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  font-family: "Ubuntu Mono";
 }
 
-.programmer__title {
-    margin: 2.5% 0px 0px 0px;
+.programmer__c--flex {
+  display: flex;
 }
 
-.programmer__subtitle {
-    margin: 0px 0px 30px 0px;
+.programmer__name-title {
+  padding: 50px 0px 0px 0px;
+  margin: 0px 0px 0px 30px;
+  text-align: left;
 }
 
-.programmer__preflex-title {
-    margin-bottom: 0px;
+.programmer__name-subtitle {
+  padding: 5px 0px 0px 0px;
+  margin: 0px 0px 20px 30px;
+  text-align: left;
 }
 
-.programmer-sc--flex {
-    display: flex;
-    justify-content: center;
+.programmer__sc-flex1 {
+  width: 400px;
+  height: 570px;
+  color: rgb(226, 223, 223);
+  text-align: left;
+  background-color: #083f6a;
 }
 
-.programmer-sc__container {
-    padding: 10px 0px 10px 0px;
-    width: 33%;
-    margin: 10px 5px 5px 5px;
+.programmer__sc-flex1__detail-c {
+  margin: 20px 20px 20px 20px;
+  padding: 0px 0px 0px 0px;
 }
 
-.programmer-sc__container-port {
-    padding: 10px 0px 10px 0px;
-    width: auto;
-    margin: 10px 5px 5px 5px;
+.programmer__sc-flex1__details-title {
+  margin: 20px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  color: #aedae5;
 }
 
-.programmer-sc__container-portimg {
-    width: 500px;
-    height: 500px;
+.programmer__sc-flex1__details-details1 {
+  margin: 20px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  color: #5aaad0;
 }
 
-.programmer__subtitle-text {
-    width: 68%;
-    margin-left: 16%;
-    text-align: justify;
+.programmer__sc-flex1__details-details2 {
+  margin: 3px 0px 3px 0px;
+  padding: 0px 0px 0px 0px;
+  color: #aedae5;
+  font-size: 15px;
 }
 
-.programmer__portrait {
-    height: 50%;
-    border-radius: 50%;
-    margin-bottom: 20px;
-    margin-top: 12%;
+.programmer__sc-flex2 {
+  width: 100%;
+  color: #083f6a;
+  background-color: #aedae5;
+  text-align: left;
+}
+
+.programmer__sc-flex2__title {
+  margin: 0px 20px 40px 20px;
+  font-size: 55px;
+}
+
+.programmer__sc-flex2__subtitle {
+  margin: 50px 10px 0px 20px;
+  font-size: 20px;
+}
+
+.programmer__sc-flex2__container-title {
+  margin: 3px 10px 3px 20px;
+  font-size: 20px;
+  font-weight: 600;
 }
