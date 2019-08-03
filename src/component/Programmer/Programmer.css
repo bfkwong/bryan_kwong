@@ -3,7 +3,12 @@
 .programmer__c {
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
+  width: 100%;
+  background-color: #aedae5;
+  color: #083f6a;
+
   font-family: "Ubuntu Mono";
+  text-align: left;
 }
 
 .programmer__c--flex {
@@ -22,48 +27,10 @@
   text-align: left;
 }
 
-.programmer__sc-flex1 {
-  width: 400px;
-  height: 570px;
-  color: rgb(226, 223, 223);
-  text-align: left;
-  background-color: #083f6a;
-}
-
-.programmer__sc-flex1__detail-c {
-  margin: 20px 20px 20px 20px;
-  padding: 0px 0px 0px 0px;
-}
-
-.programmer__sc-flex1__details-title {
-  margin: 20px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-  color: #aedae5;
-}
-
-.programmer__sc-flex1__details-details1 {
-  margin: 20px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-  color: #5aaad0;
-}
-
-.programmer__sc-flex1__details-details2 {
-  margin: 3px 0px 3px 0px;
-  padding: 0px 0px 0px 0px;
-  color: #aedae5;
-  font-size: 15px;
-}
-
-.programmer__sc-flex2 {
-  width: 100%;
-  color: #083f6a;
-  background-color: #aedae5;
-  text-align: left;
-}
-
 .programmer__sc-flex2__title {
   margin: 0px 20px 40px 20px;
   font-size: 55px;
+  font-weight: 1000;
 }
 
 .programmer__sc-flex2__subtitle {
@@ -75,4 +42,11 @@
   margin: 3px 10px 3px 20px;
   font-size: 20px;
   font-weight: 600;
+}
+
+.programmer__sc-flex2__card-overflow {
+  width: 95%;
+  margin-left: 1.5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

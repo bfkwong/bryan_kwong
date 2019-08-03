@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap");
+
+.sidebar__sc-flex1 {
+  width: 300px;
+  height: auto;
+  color: rgb(226, 223, 223);
+  text-align: left;
+  background-color: #083f6a;
+}
+
+.sidebar__sc-flex1__detail-c {
+  margin: 20px 20px 20px 20px;
+  padding: 0px 0px 0px 0px;
+}
+
+.sidebar__sc-flex1__details-title {
+  margin: 20px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.sidebar__sc-flex1__details-details1 {
+  margin: 10px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.sidebar__sc-flex1__details-details2 {
+  margin: 3px 0px 3px 0px;
+  padding: 0px 0px 0px 0px;
+  font-size: 15px;
+  line-height: 16px;
+}

@@ -1,27 +1,55 @@
-@import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap");
 
-.photographer-c {
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
-    font-family: "Merriweather";
+.photographer__c {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+  height: 2000px;
+  text-align: left;
+  background-color: #efafad;
+  color: #55161f;
+  font-family: "Ubuntu Mono";
 }
 
-.programmer__title {
-    margin: 2.5% 0px 0px 0px;
+.programmer__c--flex {
+  display: flex;
 }
 
-.programmer__subtitle {
-    margin: 0px 0px 30px 0px;
+.programmer__name-title {
+  padding: 50px 0px 0px 0px;
+  margin: 0px 0px 0px 30px;
+  text-align: left;
 }
 
-.programmer-sc__container-port {
-    padding: 10px 0px 10px 0px;
-    width: 35%;
-    margin: 10px 5px 5px 5px;
+.programmer__name-subtitle {
+  padding: 5px 0px 0px 0px;
+  margin: 0px 0px 20px 30px;
+  text-align: left;
 }
 
-.programmer-sc__container-portimg {
-    padding: 10px 0px 10px 0px;
-    width: 30%;
-    margin: 10px 5px 5px 5px;
+.photographer__sc-flex2 {
+}
+
+.programmer__sc-flex2__title {
+  margin: 0px 20px 40px 20px;
+  font-size: 55px;
+  font-weight: 1000;
+}
+
+.programmer__sc-flex2__subtitle {
+  margin: 50px 10px 0px 20px;
+  font-size: 20px;
+}
+
+.programmer__sc-flex2__container-title {
+  margin: 3px 10px 3px 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.programmer__sc-flex2__card-overflow {
+  width: 95%;
+  margin-left: 1.5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
