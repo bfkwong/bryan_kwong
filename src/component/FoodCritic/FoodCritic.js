@@ -32,7 +32,7 @@ class FoodCritic extends React.Component {
     ];
 
     return (
-      <div className="fd-crtc__c">
+      <div className="fd-crtc__c" style={{ height: window.innerHeight - 62 }}>
         <p className="programmer__sc-flex2__subtitle">THE FOODIE</p>
         <h1 className="programmer__sc-flex2__title">BRYAN KWONG</h1>
         <p
@@ -42,8 +42,8 @@ class FoodCritic extends React.Component {
           THE PLACES I'VE BEEN
         </p>
 
-        {reviews.map(data => (
-          <FoodReviewContainer data={data} />
+        {reviews.map((data, index) => (
+          <FoodReviewContainer data={data} key={index} />
         ))}
       </div>
     );

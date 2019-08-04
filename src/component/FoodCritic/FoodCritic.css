@@ -6,7 +6,7 @@
   width: 100%;
   background-color: #a7c6cf;
   color: #080f19;
-
+  overflow-y: scroll;
   font-family: "Crimson Pro";
   text-align: left;
 }

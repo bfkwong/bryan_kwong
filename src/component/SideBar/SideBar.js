@@ -147,11 +147,7 @@ class SideBar extends React.Component {
               </b>
 
               <p className="sidebar__sc-flex1__details-details2">
-                Californian <br />
-                French <br />
-                {"Chinese (Sichuan)"} <br />
-                Italian <br />
-                Indian <br />Japanese <br />
+                Californian • French • Sichuan • Italian • Indian • Japanese
               </p>
             </React.Fragment>
           )}

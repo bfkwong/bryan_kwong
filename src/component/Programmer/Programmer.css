@@ -6,7 +6,7 @@
   width: 100%;
   background-color: #aedae5;
   color: #083f6a;
-
+  overflow-y: scroll;
   font-family: "Ubuntu Mono";
   text-align: left;
 }

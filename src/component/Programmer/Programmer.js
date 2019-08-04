@@ -13,7 +13,10 @@ class Programmer extends React.Component {
     const { Ui, Enum, toggleProfessionaMode } = this.props;
 
     return (
-      <div className="programmer__c">
+      <div
+        className="programmer__c"
+        style={{ height: window.innerHeight - 62 }}
+      >
         <p className="programmer__sc-flex2__subtitle">THE PROGRAMMER</p>
         <h1 className="programmer__sc-flex2__title">BRYAN KWONG</h1>
         <p className="programmer__sc-flex2__container-title">WHAT I CAN DO</p>

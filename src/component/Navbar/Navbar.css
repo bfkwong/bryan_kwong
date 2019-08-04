@@ -1,16 +1,16 @@
 .navbar__container {
-    display: flex;
-    justify-content: center;
-    height: auto;
-    background-color: rgb(223, 223, 223);
+  display: flex;
+  justify-content: center;
+  height: 62px;
+  background-color: rgb(223, 223, 223);
 }
 
 .navbar__text {
-    margin: 20px 20px 20px 20px;
-    font-size: 15px;
-    cursor: pointer;
+  margin: 20px 20px 20px 20px;
+  font-size: 15px;
+  cursor: pointer;
 }
 
 .navbar__text:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }

@@ -4,7 +4,7 @@
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
   width: 100%;
-  height: 2000px;
+  overflow-y: auto;
   text-align: left;
   background-color: #efafad;
   color: #55161f;
@@ -52,4 +52,9 @@
   margin-left: 1.5%;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.photographer__carousel {
+  margin: 20px 10% 20px 10%;
+  width: 80%;
 }
