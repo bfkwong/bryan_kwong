@@ -3,8 +3,7 @@ const initialState = {
     0: "The Programmer",
     1: "The Photographer",
     2: "The Foodie",
-    3: "The Businessman",
-    4: "The Idiot"
+    3: "The Idiot"
   }
 };
 

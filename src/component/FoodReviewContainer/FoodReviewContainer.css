@@ -2,10 +2,20 @@
   margin: 0px 20px 20px 20px;
 }
 
-.fd-rvw-cntnr__see-more {
+.fd-rvw-cntnr__see-more--inline {
   display: inline;
+  text-decoration: underline;
+}
+
+.fd-rvw-cntnr__see-more--inline:hover {
+  cursor: pointer;
+}
+
+.fd-rvw-cntnr__see-more {
+  margin-bottom: 0px;
+  text-decoration: underline;
 }
 
 .fd-rvw-cntnr__see-more:hover {
-  text-decoration: underline;
+  cursor: pointer;
 }

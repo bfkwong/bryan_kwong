@@ -9,6 +9,7 @@ import "./component/Programmer/Programmer.css";
 import Programmer from "./component/Programmer/Programmer";
 import Photographer from "./component/Photographer/Photographer";
 import FoodCritic from "./component/FoodCritic/FoodCritic";
+import Idiot from "./component/Idiot/Idiot";
 
 import portrait from "./images/portrait.jpeg";
 import SideBar from "./component/SideBar/SideBar";
@@ -20,7 +21,8 @@ class App extends React.Component {
     const bgColorMapping = {
       0: "#083F6A",
       1: "#55161F",
-      2: "#080f19"
+      2: "#080f19",
+      3: "#5b6627"
     };
 
     console.log(Ui);
@@ -37,6 +39,7 @@ class App extends React.Component {
           {Ui.professionModeId === 0 && <Programmer />}
           {Ui.professionModeId === 1 && <Photographer />}
           {Ui.professionModeId === 2 && <FoodCritic />}
+          {Ui.professionModeId === 3 && <Idiot />}
         </div>
       </div>
     );

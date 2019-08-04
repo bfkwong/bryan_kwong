@@ -10,25 +10,22 @@ class SideBar extends React.Component {
     const fontMapping = {
       0: "Ubuntu Mono",
       1: "Montserrat",
-      2: "Crimson Pro"
-    };
-
-    const bgColorMapping = {
-      0: "#083F6A",
-      1: "#55161F",
-      2: "#080f19"
+      2: "Crimson Pro",
+      3: "Schoolbell"
     };
 
     const titleMapping = {
       0: "#5aaad0",
       1: "#e15371",
-      2: "#81a2ad"
+      2: "#81a2ad",
+      3: "#b6bf38"
     };
 
     const subtitleMapping = {
       0: "#aedae5",
       1: "#efafad",
-      2: "#a7c6cf"
+      2: "#a7c6cf",
+      3: "#f6ea9f"
     };
 
     const { Ui } = this.props;
@@ -39,7 +36,6 @@ class SideBar extends React.Component {
         <div
           className="sidebar__sc-flex1__detail-c"
           style={{
-            backgroundColor: bgColorMapping[Ui.professionModeId],
             color: subtitleMapping[Ui.professionModeId],
             fontFamily: fontMapping[Ui.professionModeId]
           }}
@@ -148,6 +144,30 @@ class SideBar extends React.Component {
 
               <p className="sidebar__sc-flex1__details-details2">
                 Californian • French • Sichuan • Italian • Indian • Japanese
+              </p>
+            </React.Fragment>
+          )}
+          {Ui.professionModeId === 3 && (
+            <React.Fragment>
+              <h2
+                className="sidebar__sc-flex1__details-title"
+                style={{ color: titleMapping[Ui.professionModeId] }}
+              >
+                ABOUT ME
+              </h2>
+              <b>
+                <p className="sidebar__sc-flex1__details-details1">
+                  LAUGHTER IS THE BEST MEDICINE
+                </p>
+              </b>
+
+              <p className="sidebar__sc-flex1__details-details2">
+                Ask your doctor if laughter is right for you. Side effects may
+                include stomach pains, watery eyes, difficulty breathing and
+                throat tenderness. If you experience any of the following
+                symptoms, stop using Laughter and call your doctor right away.
+                Do not use Laughter if you are allergic to Laughter or any of
+                its ingredients
               </p>
             </React.Fragment>
           )}

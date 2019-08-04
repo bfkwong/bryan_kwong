@@ -55,6 +55,12 @@
 }
 
 .photographer__carousel {
-  margin: 20px 10% 20px 10%;
-  width: 80%;
+  margin: 20px 2.5% 20px 2.5%;
+  width: 95%;
+  border-radius: 10px;
+}
+
+.photographer__card {
+  width: 90%;
+  margin: 0% 5% 5% 5%;
 }

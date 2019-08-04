@@ -70,7 +70,9 @@ class Programmer extends React.Component {
             </Card>
           </CardDeck>
         </div>
-        <p className="programmer__sc-flex2__container-title">EXPERIENCES</p>
+        <p className="programmer__sc-flex2__container-title">
+          WHERE I HAVE WORKED
+        </p>
         <div className="programmer__sc-flex2__card-overflow">
           <CardDeck>
             <Card style={{ width: "300px" }}>
@@ -114,7 +116,9 @@ class Programmer extends React.Component {
             </Card>
           </CardDeck>
         </div>
-        <p className="programmer__sc-flex2__container-title">PROJECTS</p>
+        <p className="programmer__sc-flex2__container-title">
+          WHAT I HAVE DONE
+        </p>
         <div className="programmer__sc-flex2__card-overflow">
           <CardDeck>
             <Card style={{ width: "300px" }}>
@@ -129,7 +133,9 @@ class Programmer extends React.Component {
                   one another.
                 </Card.Text>
               </Card.Body>
-              <Card.Footer>Link to Project</Card.Footer>
+              <Card.Footer>
+                <a href="https://www.google.com">Link to Project</a>
+              </Card.Footer>
             </Card>
             <Card style={{ width: "300px" }}>
               <Card.Body>
@@ -143,7 +149,9 @@ class Programmer extends React.Component {
                   moves
                 </Card.Text>
               </Card.Body>
-              <Card.Footer>Link to Project</Card.Footer>
+              <Card.Footer>
+                <a href="https://www.google.com">Link to Project</a>
+              </Card.Footer>
             </Card>
             <Card style={{ width: "300px" }}>
               <Card.Body>
@@ -152,16 +160,20 @@ class Programmer extends React.Component {
                   Full Stack Web Dev
                 </Card.Subtitle>
                 <Card.Text>
-                  Develope an interactive personal site that show that I am more
-                  than a programmer. I am also a photographer, food critic and
-                  sometimes an idiot
+                  Develope an interactive personal site with ReactJS that show
+                  that I am more than a programmer. I am also a photographer,
+                  foodie and sometimes an idiot
                 </Card.Text>
               </Card.Body>
-              <Card.Footer>Link to Project</Card.Footer>
+              <Card.Footer>
+                <a href="https://www.google.com">Link to Project</a>
+              </Card.Footer>
             </Card>
           </CardDeck>
         </div>
-        <p className="programmer__sc-flex2__container-title">PUBLICATIONS</p>
+        <p className="programmer__sc-flex2__container-title">
+          WHAT I HAVE WRITTEN
+        </p>
         <div className="programmer__sc-flex2__card-overflow">
           <CardDeck>
             <Card style={{ width: "300px" }}>
