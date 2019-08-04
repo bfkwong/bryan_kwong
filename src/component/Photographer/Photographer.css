@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
 .photographer__c {
   padding: 0px 0px 0px 0px;
@@ -8,7 +8,7 @@
   text-align: left;
   background-color: #efafad;
   color: #55161f;
-  font-family: "Ubuntu Mono";
+  font-family: "Montserrat";
 }
 
 .programmer__c--flex {

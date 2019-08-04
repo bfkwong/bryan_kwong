@@ -1,0 +1,11 @@
+.fd-rvw-cntnr {
+  margin: 0px 20px 20px 20px;
+}
+
+.fd-rvw-cntnr__see-more {
+  display: inline;
+}
+
+.fd-rvw-cntnr__see-more:hover {
+  text-decoration: underline;
+}

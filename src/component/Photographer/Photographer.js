@@ -8,12 +8,11 @@ import "./Photographer.css";
 class Photographer extends React.Component {
   render() {
     const { Ui, Enum, toggleProfessionaMode } = this.props;
-
     return (
       <div className="photographer__c">
         <p className="programmer__sc-flex2__subtitle">THE PHOTOGRAPHER</p>
         <h1 className="programmer__sc-flex2__title">BRYAN KWONG</h1>
-        <p className="programmer__sc-flex2__container-title">WHAT I CAN DO</p>
+        <p className="programmer__sc-flex2__container-title">SOME OF MY WORK</p>
       </div>
     );
   }
