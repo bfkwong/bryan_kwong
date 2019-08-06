@@ -1,185 +1,203 @@
 import React from "react";
 import { connect } from "react-redux";
 import Image from "react-bootstrap/Image";
+import Card from "react-bootstrap/Card";
+import CardDeck from "react-bootstrap/CardDeck";
 
 import portrait from "../../images/portrait.jpeg";
 
 import "./Programmer.css";
 
 class Programmer extends React.Component {
-    render() {
-        const { Ui, Enum, toggleProfessionaMode } = this.props;
+  render() {
+    const { Ui, Enum, toggleProfessionaMode } = this.props;
 
-        return (
-            <div className="programmer-c">
-                <h1 className="programmer__title">BRYAN KWONG</h1>
-                <p className="programmer__subtitle">The Programmer</p>
-                <div className="programmer-sc--flex">
-                    <div className="programmer-sc__container-port">
-                        <h2 style={{ marginTop: "30px" }}>ABOUT ME</h2>
-                        <div
-                            style={{
-                                textAlign: "left",
-                                marginLeft: "15%",
-                                width: "70%",
-                                fontWeight: 300
-                            }}
-                        >
-                            <h4>EDUCATION</h4>
-                            <p>
-                                Cal Poly, San Luis Obispo
-                                <br />
-                                BS in Computer Science
-                                <br />
-                                Expected Dec 2020
-                                <br />
-                                GPA: 3.75/4.00
-                            </p>
-
-                            <h4>RELAVANT COURSES</h4>
-                            <p>
-                                Data Structures
-                                <br />
-                                Systems Programming
-                                <br />
-                                Object Oriented Programming
-                                <br />
-                                Algorithms
-                                <br />
-                                Linear Algebra
-                                <br />
-                                Multivariable Calculus <br />
-                                Regression Analysis <br />
-                                Discrete Structures <br />
-                                Statistics for Engineers <br />
-                                and more ...
-                            </p>
-                        </div>
-                    </div>
-                    <div className="programmer-sc__container-portimg">
-                        {/* <img
-                            className="programmer__portrait "
-                            id={"programmerPortrait"}
-                            src={portrait}
-                            alt={"portrait.png"}
-                        /> */}
-                        <Image
-                            src={portrait}
-                            style={{
-                                width: "100%",
-                                marginTop: "15%"
-                            }}
-                            fluid
-                        />
-                    </div>
-                    <div className="programmer-sc__container-port">
-                        <h2 style={{ marginTop: "20px" }}>SKILLS</h2>
-                        <div
-                            style={{
-                                textAlign: "left",
-                                marginLeft: "15%",
-                                width: "70%",
-                                fontWeight: 300
-                            }}
-                        >
-                            <h4>GENERAL SKILLS</h4>
-                            <p>
-                                Full Stack Web Development
-                                <br />
-                                Object Oriented Programming
-                                <br />
-                                Software Development
-                                <br />
-                                Maching Learning
-                                <br />
-                                Data Science
-                                <br />
-                                Statistical Analysis
-                            </p>
-
-                            <h4>SPECIFIC SKILLS</h4>
-                            <p>
-                                <b>PYTHON</b>
-                                <br />
-                                Tensorflow, SciKit-Learn
-                                <br />
-                                NumPy, Pandas, Spark
-                                <br />
-                                <b>HTML/CSS/JavaScript</b>
-                                <br />
-                                MERN Stack, D3JS, CytoscapeJS
-                                <br />
-                                <b>FAMILIAR WITH</b>
-                                <br />
-                                Unix Programming, Splunk
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <h2 className="programmer__preflex-title">Experience</h2>
-                <div className="programmer-sc--flex">
-                    <div className="programmer-sc__container">
-                        <h3 className="programmer__title">VIASAT</h3>
-                        <p className="programmer__subtitle">
-                            Software Engineer Intern
-                        </p>
-                        <p className="programmer__subtitle-text">
-                            Worked in a team of three to manage and develop a
-                            full stack application including the REST API that
-                            monitors cyber security threats.
-                        </p>
-                    </div>
-                    <div className="programmer-sc__container">
-                        <h3 className="programmer__title">UNANIMOUS AI</h3>
-                        <p className="programmer__subtitle">
-                            Data Science Intern
-                        </p>
-                        <p className="programmer__subtitle-text">
-                            Developed a data intensive front end web app used
-                            for collecting survey data. Headed the statistical
-                            analysis used in the "Measuring Group Personality
-                            with Swarm AI"
-                        </p>
-                    </div>
-                    <div className="programmer-sc__container">
-                        <h3 className="programmer__title">CAL POLY</h3>
-                        <p className="programmer__subtitle">
-                            Student ML Researcher
-                        </p>
-                        <p className="programmer__subtitle-text">
-                            Researched optimal SVM Kernel Functions for data
-                            which satisfies specific conditions. Studied the
-                            math and logic behind various types of
-                            dimensionality reduction.
-                        </p>
-                    </div>
-                </div>
-                <h2 className="programmer__preflex-title">Publications</h2>
-                <p
-                    style={{
-                        width: "60%",
-                        marginLeft: "20%",
-                        textAlign: "left"
-                    }}
-                >
-                    Gregg Wilcox, David Askay, Louis Rosenberg, Lynn Metcalf,
-                    Bryan Kwong and Richard Liu. Measuring Group Personality
-                    with Swarm AI. Submitted to Transdisciplinary AI 2019
-                </p>
-                <h2
-                    className="programmer__preflex-title"
-                    style={{ marginBottom: "100px" }}
-                >
-                    Projects
-                </h2>
-            </div>
-        );
-    }
+    return (
+      <div
+        className="programmer__c"
+        style={{ height: window.innerHeight - 62 }}
+      >
+        <p className="programmer__sc-flex2__subtitle">THE PROGRAMMER</p>
+        <h1 className="programmer__sc-flex2__title">BRYAN KWONG</h1>
+        <p className="programmer__sc-flex2__container-title">WHAT I CAN DO</p>
+        <div className="programmer__sc-flex2__card-overflow">
+          <CardDeck>
+            <Card style={{ width: "300px" }}>
+              <Card.Body>
+                <Card.Title>PROGRAMMING SKILLS</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">
+                  Python
+                </Card.Subtitle>
+                <Card.Text>
+                  Tensorflow, SciKit-Learn, NumPy, Pandas, Spark, Matplotlib,
+                  Seaborn, SQAlchemy, Django
+                </Card.Text>
+                <Card.Subtitle className="mb-2 text-muted">
+                  HTML/CSS/JavaScript
+                </Card.Subtitle>
+                <Card.Text>
+                  ReactJS, React-Redux, Bootstrap, ExpressJS, NodeJS,
+                  CytoscapeJS, D3JS, Firebase
+                </Card.Text>
+                <Card.Subtitle className="mb-2 text-muted">
+                  Familiar with
+                </Card.Subtitle>
+                <Card.Text>
+                  Java, C, Unix Programming, Splunk, Database Design
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card style={{ width: "300px" }}>
+              <Card.Body>
+                <Card.Title>RELEVANT COURSEWORK</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">
+                  Computer Science
+                </Card.Subtitle>
+                <Card.Text>
+                  Discrete Structures • Algorithm • Data Structures • Object
+                  Oriented Programming • Systems Programming • Systems
+                  Architecture • Computer Organization
+                </Card.Text>
+                <Card.Subtitle className="mb-2 text-muted">
+                  Machine Learning and Statistics
+                </Card.Subtitle>
+                <Card.Text>
+                  Regression Analysis • Experimental Design • Statistics for
+                  Engineers • Linear Algebra • Multivariable Calculus • ML
+                  Research
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </CardDeck>
+        </div>
+        <p className="programmer__sc-flex2__container-title">
+          WHERE I HAVE WORKED
+        </p>
+        <div className="programmer__sc-flex2__card-overflow">
+          <CardDeck>
+            <Card style={{ width: "300px" }}>
+              <Card.Body>
+                <Card.Title>VIASAT INC</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">
+                  SOFTWARE ENGINEER INTERN
+                </Card.Subtitle>
+                <Card.Text>
+                  Worked in a team of three to manage and developed a full stack
+                  web app and a REST API which monitors cybersecurity threats
+                  against a network
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card style={{ width: "300px" }}>
+              <Card.Body>
+                <Card.Title>UNANIMOUS AI</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">
+                  DATA SCIENCE INTERN
+                </Card.Subtitle>
+                <Card.Text>
+                  Developed a data intensive front end web for collecting survey
+                  data. Headed the statistical analysis for "Measuring Group
+                  Personality with Swarm AI"
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card style={{ width: "300px" }}>
+              <Card.Body>
+                <Card.Title>CAL POLY</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">
+                  STUDENT ML RESEARCHER
+                </Card.Subtitle>
+                <Card.Text>
+                  Researched optimal SVM Kernels for data satisfying specific
+                  conditions. Studied the math behind different types of
+                  dimensionality reduction.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </CardDeck>
+        </div>
+        <p className="programmer__sc-flex2__container-title">
+          WHAT I HAVE DONE
+        </p>
+        <div className="programmer__sc-flex2__card-overflow">
+          <CardDeck>
+            <Card style={{ width: "300px" }}>
+              <Card.Body>
+                <Card.Title>CELEBRITY CHEFS</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">
+                  Graph Theory
+                </Card.Subtitle>
+                <Card.Text>
+                  Build a front end web app using CytoscapeJS to show how
+                  celebrity and Michelin starred chefs are all connected with
+                  one another.
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <a href="https://www.google.com">Link to Project</a>
+              </Card.Footer>
+            </Card>
+            <Card style={{ width: "300px" }}>
+              <Card.Body>
+                <Card.Title>STOCK MARKET ANALYSIS</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">
+                  Data Science and Statistics
+                </Card.Subtitle>
+                <Card.Text>
+                  Use machine learning to build a lightweight algorithm capable
+                  of outperforming the averages by trading short term market
+                  moves
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <a href="https://www.google.com">Link to Project</a>
+              </Card.Footer>
+            </Card>
+            <Card style={{ width: "300px" }}>
+              <Card.Body>
+                <Card.Title>THIS WEBSITE</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">
+                  Full Stack Web Dev
+                </Card.Subtitle>
+                <Card.Text>
+                  Develope an interactive personal site with ReactJS that show
+                  that I am more than a programmer. I am also a photographer,
+                  foodie and sometimes an idiot
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <a href="https://www.google.com">Link to Project</a>
+              </Card.Footer>
+            </Card>
+          </CardDeck>
+        </div>
+        <p className="programmer__sc-flex2__container-title">
+          WHAT I HAVE WRITTEN
+        </p>
+        <div className="programmer__sc-flex2__card-overflow">
+          <CardDeck>
+            <Card style={{ width: "300px" }}>
+              <Card.Body>
+                <Card.Title>
+                  Measuring Group Personality with Swarm AI
+                </Card.Title>
+                <Card.Text>
+                  Gregg Wilcox, David Askay, Louis Rosenberg, Lynn Metcalf,
+                  Bryan Kwong and Richard Liu. Measuring Group Personality with
+                  Swarm AI. Submitted to Transdisciplinary AI 2019
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </CardDeck>
+        </div>
+      </div>
+    );
+  }
 }
 
 const mapStateToProps = state => ({
-    Ui: state.Ui,
-    Enum: state.Enum
+  Ui: state.Ui,
+  Enum: state.Enum
 });
 
 export default connect(mapStateToProps)(Programmer);
