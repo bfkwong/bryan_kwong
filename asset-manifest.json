@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.ad99d842.chunk.css",
-    "main.js": "/static/js/main.736046d9.chunk.js",
-    "main.js.map": "/static/js/main.736046d9.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.dfb32703.chunk.js": "/static/js/2.dfb32703.chunk.js",
-    "static/js/2.dfb32703.chunk.js.map": "/static/js/2.dfb32703.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.58950df232973ecff50f3c5472ef4fb1.js": "/precache-manifest.58950df232973ecff50f3c5472ef4fb1.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.ad99d842.chunk.css.map": "/static/css/main.ad99d842.chunk.css.map",
-    "static/media/portrait.jpeg": "/static/media/portrait.82733663.jpeg"
+    "main.css": "/bryan_kwong/static/css/main.ad99d842.chunk.css",
+    "main.js": "/bryan_kwong/static/js/main.736046d9.chunk.js",
+    "main.js.map": "/bryan_kwong/static/js/main.736046d9.chunk.js.map",
+    "runtime~main.js": "/bryan_kwong/static/js/runtime~main.5971b00b.js",
+    "runtime~main.js.map": "/bryan_kwong/static/js/runtime~main.5971b00b.js.map",
+    "static/js/2.dfb32703.chunk.js": "/bryan_kwong/static/js/2.dfb32703.chunk.js",
+    "static/js/2.dfb32703.chunk.js.map": "/bryan_kwong/static/js/2.dfb32703.chunk.js.map",
+    "index.html": "/bryan_kwong/index.html",
+    "precache-manifest.0cc17ba5bcd05de0a5b1e7c8be046740.js": "/bryan_kwong/precache-manifest.0cc17ba5bcd05de0a5b1e7c8be046740.js",
+    "service-worker.js": "/bryan_kwong/service-worker.js",
+    "static/css/main.ad99d842.chunk.css.map": "/bryan_kwong/static/css/main.ad99d842.chunk.css.map",
+    "static/media/portrait.jpeg": "/bryan_kwong/static/media/portrait.82733663.jpeg"
   }
 }
