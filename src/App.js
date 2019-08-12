@@ -15,6 +15,9 @@ import portrait from "./images/portrait.jpeg";
 import SideBar from "./component/SideBar/SideBar";
 
 class App extends React.Component {
+  componentDidMount() {
+    alert("This site is currently under construction, not all features work");
+  }
   render() {
     const { Ui, Enum } = this.props;
 

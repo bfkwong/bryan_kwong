@@ -133,9 +133,7 @@ class Programmer extends React.Component {
                   one another.
                 </Card.Text>
               </Card.Body>
-              <Card.Footer>
-                <a href="https://www.google.com">Link to Project</a>
-              </Card.Footer>
+              <Card.Footer>Link to Project</Card.Footer>
             </Card>
             <Card style={{ width: "300px" }}>
               <Card.Body>
@@ -149,9 +147,7 @@ class Programmer extends React.Component {
                   moves
                 </Card.Text>
               </Card.Body>
-              <Card.Footer>
-                <a href="https://www.google.com">Link to Project</a>
-              </Card.Footer>
+              <Card.Footer>Link to Project</Card.Footer>
             </Card>
             <Card style={{ width: "300px" }}>
               <Card.Body>
@@ -165,9 +161,7 @@ class Programmer extends React.Component {
                   foodie and sometimes an idiot
                 </Card.Text>
               </Card.Body>
-              <Card.Footer>
-                <a href="https://www.google.com">Link to Project</a>
-              </Card.Footer>
+              <Card.Footer>Link to Project</Card.Footer>
             </Card>
           </CardDeck>
         </div>
